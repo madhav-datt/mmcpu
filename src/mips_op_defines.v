@@ -1,0 +1,15 @@
+`ifndef MIPS_OP_DEFINE
+`define MIPS_OP_DEFINE
+`define MIPS_OP_R 6'b000000
+`define MIPS_OP_ADDI 6'b001000
+`define MIPS_OP_SLTI 6'b001010
+`define MIPS_OP_ANDI 6'b001100
+`define MIPS_OP_ORI 6'b001101
+`define MIPS_OP_XORI 6'b001110
+`define MIPS_OP_LW 6'b100011
+`define MIPS_OP_SW 6'b101011
+`define MIPS_OP_J 6'b000010
+`define MIPS_OP_JAL 6'b000011
+`define MIPS_OP_BEQ 6'b000100
+`define MIPS_OP_BNE 6'b000101
+`endif

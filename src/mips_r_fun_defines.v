@@ -1,0 +1,14 @@
+`ifndef MIPS_R_FUN_DEFINE
+`define MIPS_R_FUN_DEFINE
+`define MIPS_R_AND 6'b100100
+`define MIPS_R_OR 6'b100101
+`define MIPS_R_XOR 6'b100110
+`define MIPS_R_NOR 6'b100111
+`define MIPS_R_SLL 6'b000000
+`define MIPS_R_SRL 6'b000010
+`define MIPS_R_SRA 6'b000011
+`define MIPS_R_SLT 6'b101010
+`define MIPS_R_ADD 6'b100000
+`define MIPS_R_SUB 6'b100010
+`define MIPS_R_JR 6'b001000
+`endif
