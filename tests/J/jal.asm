@@ -1,0 +1,2 @@
+loop: nop
+	jal loop
